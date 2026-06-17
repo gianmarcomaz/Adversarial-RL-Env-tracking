@@ -1,3 +1,0 @@
-Skipping image OS validation for hb__commitments-tracking: docker inspect returned 1
-The verifier.env contains an API key (often the case for LLM-based verifiers). You will incur costs associated with the API calls.
-Trial commitments-tracking__NeTmkgr failed: No reward file found at jobs\2026-06-16__16-47-50\commitments-tracking__NeTmkgr\verifier\reward.txt or jobs\2026-06-16__16-47-50\commitments-tracking__NeTmkgr\verifier\reward.json

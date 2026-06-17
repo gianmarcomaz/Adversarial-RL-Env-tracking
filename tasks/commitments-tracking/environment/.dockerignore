@@ -1,2 +1,6 @@
 .env
 state.json
+__pycache__/
+*.pyc
+matplotlib_cache/
+docx_render/
