@@ -1,0 +1,109 @@
+{
+    "id": "368968b3-aa8b-4750-ac64-581df05b6223",
+    "task_name": "apollo/commitments-tracking",
+    "trial_name": "commitments-tracking__NeTmkgr",
+    "trial_uri": "file:///C:/Users/gianm/Desktop/Everything/apollo_mercor/jobs/2026-06-16__16-47-50/commitments-tracking__NeTmkgr",
+    "task_id": {
+        "path": "tasks\\commitments-tracking"
+    },
+    "source": null,
+    "task_checksum": "0b937d813e598e604f9b1e816d4bf43a2ee24c9d4fe17124afb42316c56fc311",
+    "config": {
+        "task": {
+            "path": "tasks\\commitments-tracking",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "commitments-tracking__NeTmkgr",
+        "trials_dir": "jobs\\2026-06-16__16-47-50",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "env": {},
+            "mcp_servers": []
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "env": {},
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "job_id": "84059ebe-353c-4759-9f86-4b71e949689f"
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": null,
+    "exception_info": {
+        "exception_type": "RewardFileNotFoundError",
+        "exception_message": "No reward file found at jobs\\2026-06-16__16-47-50\\commitments-tracking__NeTmkgr\\verifier\\reward.txt or jobs\\2026-06-16__16-47-50\\commitments-tracking__NeTmkgr\\verifier\\reward.json",
+        "exception_traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\trial\\trial.py\", line 292, in run\n    await self._run()\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\trial\\single_step.py\", line 40, in _run\n    await self._run_verifier()\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\trial\\single_step.py\", line 91, in _run_verifier\n    self.result.verifier_result = await self._run_shared_verifier(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\trial\\trial.py\", line 449, in _run_shared_verifier\n    return await asyncio.wait_for(verifier.verify(), timeout=timeout_sec)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\asyncio\\tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\verifier\\verifier.py\", line 214, in verify\n    raise RewardFileNotFoundError(\nharbor.verifier.verifier.RewardFileNotFoundError: No reward file found at jobs\\2026-06-16__16-47-50\\commitments-tracking__NeTmkgr\\verifier\\reward.txt or jobs\\2026-06-16__16-47-50\\commitments-tracking__NeTmkgr\\verifier\\reward.json\n",
+        "occurred_at": "2026-06-16T16:48:33.270300"
+    },
+    "started_at": "2026-06-16T23:48:00.174880Z",
+    "finished_at": "2026-06-16T23:48:35.208801Z",
+    "environment_setup": {
+        "started_at": "2026-06-16T23:48:00.316176Z",
+        "finished_at": "2026-06-16T23:48:29.488490Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-06-16T23:48:29.488490Z",
+        "finished_at": "2026-06-16T23:48:29.488490Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-06-16T23:48:29.488490Z",
+        "finished_at": "2026-06-16T23:48:30.857482Z"
+    },
+    "verifier": {
+        "started_at": "2026-06-16T23:48:30.859135Z",
+        "finished_at": "2026-06-16T23:48:33.264648Z"
+    },
+    "step_results": null
+}

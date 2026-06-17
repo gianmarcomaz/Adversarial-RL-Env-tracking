@@ -1,0 +1,144 @@
+{
+    "id": "903a9874-75cf-4b33-a226-74b0fd800dd0",
+    "task_name": "apollo/commitments-tracking",
+    "trial_name": "commitments-tracking__Cd9ucH5",
+    "trial_uri": "file:///C:/Users/gianm/Desktop/Everything/apollo_mercor/jobs/2026-06-16__19-41-52/commitments-tracking__Cd9ucH5",
+    "task_id": {
+        "path": "tasks\\commitments-tracking"
+    },
+    "source": null,
+    "task_checksum": "ea9ec7ef83de9736f2eb397f8675e6f332c7ac8b8f8580513040b7ca688a951e",
+    "config": {
+        "task": {
+            "path": "tasks\\commitments-tracking",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "commitments-tracking__Cd9ucH5",
+        "trials_dir": "jobs\\2026-06-16__19-41-52",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "terminus-2",
+            "import_path": null,
+            "model_name": "openrouter/google/gemma-4-31b-it",
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "env": {},
+            "mcp_servers": []
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "env": {},
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "job_id": "cb1d537a-cd4b-438a-bc26-7b83c994e2ae"
+    },
+    "agent_info": {
+        "name": "terminus-2",
+        "version": "2.0.0",
+        "model_info": {
+            "name": "google/gemma-4-31b-it",
+            "provider": "openrouter"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 28670,
+        "n_cache_tokens": 12576,
+        "n_output_tokens": 1689,
+        "cost_usd": 0.0036542700000000003,
+        "rollout_details": [],
+        "metadata": {
+            "n_episodes": 6,
+            "api_request_times_msec": [
+                5378.986835479736,
+                2553.889036178589,
+                5476.454257965088,
+                8113.389253616333,
+                3363.3923530578613,
+                3200.0441551208496
+            ],
+            "summarization_count": 0
+        }
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 1,
+            "deterministic_reward": 1,
+            "llm_judge_score": 1,
+            "llm_judge_available": 1,
+            "launch_checklist_ok": 1,
+            "onboarding_faq_ok": 1,
+            "billing_monitoring_ok": 1,
+            "globex_questionnaire_ok": 1,
+            "initech_renewal_ok": 1,
+            "staging_key_rotation_ok": 1,
+            "invoice_mismatch_ok": 1,
+            "no_launch_checklist_duplicate": 1,
+            "no_wrong_key_rotation_owner": 1,
+            "no_webinar_recap_task": 1,
+            "no_rollout_plan_task": 1,
+            "no_qbr_deck_task": 1,
+            "no_globex_logo_task": 1,
+            "no_refund_summary_task": 1,
+            "no_discount_task": 1,
+            "no_churnco_task": 1,
+            "no_snapshot_task": 1,
+            "no_docs_typo_task": 1,
+            "expected_task_count": 1
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-06-17T02:50:14.269451Z",
+    "finished_at": "2026-06-17T02:51:21.540766Z",
+    "environment_setup": {
+        "started_at": "2026-06-17T02:50:14.293554Z",
+        "finished_at": "2026-06-17T02:50:20.398342Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-06-17T02:50:20.398342Z",
+        "finished_at": "2026-06-17T02:50:35.525331Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-06-17T02:50:35.525331Z",
+        "finished_at": "2026-06-17T02:51:15.830059Z"
+    },
+    "verifier": {
+        "started_at": "2026-06-17T02:51:15.830059Z",
+        "finished_at": "2026-06-17T02:51:19.316845Z"
+    },
+    "step_results": null
+}

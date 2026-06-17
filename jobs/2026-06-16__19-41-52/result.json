@@ -1,0 +1,380 @@
+{
+    "id": "cb1d537a-cd4b-438a-bc26-7b83c994e2ae",
+    "started_at": "2026-06-16T19:41:52.421457",
+    "updated_at": "2026-06-16T19:53:46.058901",
+    "finished_at": "2026-06-16T19:53:46.058901",
+    "n_total_trials": 10,
+    "stats": {
+        "n_completed_trials": 10,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "terminus-2__google/gemma-4-31b-it__adhoc": {
+                "n_trials": 10,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "billing_monitoring_ok": 1.0,
+                        "deterministic_reward": 1.0,
+                        "expected_task_count": 1.0,
+                        "globex_questionnaire_ok": 1.0,
+                        "initech_renewal_ok": 1.0,
+                        "invoice_mismatch_ok": 1.0,
+                        "launch_checklist_ok": 1.0,
+                        "llm_judge_available": 1.0,
+                        "llm_judge_score": 0.9,
+                        "no_churnco_task": 1.0,
+                        "no_discount_task": 1.0,
+                        "no_docs_typo_task": 1.0,
+                        "no_globex_logo_task": 1.0,
+                        "no_launch_checklist_duplicate": 1.0,
+                        "no_qbr_deck_task": 1.0,
+                        "no_refund_summary_task": 1.0,
+                        "no_rollout_plan_task": 1.0,
+                        "no_snapshot_task": 1.0,
+                        "no_webinar_recap_task": 1.0,
+                        "no_wrong_key_rotation_owner": 1.0,
+                        "onboarding_faq_ok": 1.0,
+                        "reward": 1.0,
+                        "staging_key_rotation_ok": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "deterministic_reward": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "llm_judge_score": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ],
+                        "0": [
+                            "commitments-tracking__NoymsFm"
+                        ]
+                    },
+                    "llm_judge_available": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "launch_checklist_ok": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "onboarding_faq_ok": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "billing_monitoring_ok": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "globex_questionnaire_ok": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "initech_renewal_ok": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "staging_key_rotation_ok": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "invoice_mismatch_ok": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "no_launch_checklist_duplicate": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "no_wrong_key_rotation_owner": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "no_webinar_recap_task": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "no_rollout_plan_task": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "no_qbr_deck_task": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "no_globex_logo_task": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "no_refund_summary_task": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "no_discount_task": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "no_churnco_task": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "no_snapshot_task": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "no_docs_typo_task": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    },
+                    "expected_task_count": {
+                        "1": [
+                            "commitments-tracking__ujYs3WN",
+                            "commitments-tracking__c5KviYa",
+                            "commitments-tracking__TA37PSj",
+                            "commitments-tracking__V3u2vKA",
+                            "commitments-tracking__u9UBFvb",
+                            "commitments-tracking__NoymsFm",
+                            "commitments-tracking__yMyfXg3",
+                            "commitments-tracking__Cd9ucH5",
+                            "commitments-tracking__MSdJNXY",
+                            "commitments-tracking__oiZEG3k"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 286175,
+        "n_cache_tokens": 35680,
+        "n_output_tokens": 15866,
+        "cost_usd": 0.03890947
+    }
+}

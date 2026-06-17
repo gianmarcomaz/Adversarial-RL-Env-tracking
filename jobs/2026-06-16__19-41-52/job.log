@@ -1,0 +1,458 @@
+Skipping image OS validation for hb__commitments-tracking: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack list_channels\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__ujYs3WN\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack get_channel_messages general\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages incidents\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages leads\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages customer-success\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages ops\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__ujYs3WN\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks create_task "Update onboarding FAQ with new SSO steps" "Update the onboarding FAQ with the new SSO steps." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Set up billing API monitoring" "Set up monitoring for the billing API to prevent future 500s spikes." "devon" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Complete Globex security questionnaire" "Fill out and submit the security questionnaire for Globex." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Draft Initech renewal email" "Draft the renewal email for Initech by Friday." "maya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Rotate staging API key" "Rotate the staging API key and include deploy notes." "priya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Reconcile April invoice mismatch" "Reconcile the April invoice mismatch." "nina" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__ujYs3WN\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__ujYs3WN\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__ujYs3WN\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__ujYs3WN\agent\trajectory.json
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__ujYs3WN\agent\trajectory.json
+The verifier.env contains an API key (often the case for LLM-based verifiers). You will incur costs associated with the API calls.
+Skipping image OS validation for hb__commitments-tracking: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack list_channels\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__c5KviYa\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack get_channel_messages general\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages incidents\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages leads\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages customer-success\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages ops\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__c5KviYa\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks create_task "Update onboarding FAQ with SSO steps" "Update the onboarding FAQ with the new SSO steps." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Set up billing API monitoring" "Set up monitoring for the billing API to prevent future 500s spikes." "devon" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Complete Globex security questionnaire" "Complete the security questionnaire requested by Globex." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Draft Initech renewal email" "Draft the renewal email for Initech by Friday." "maya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Rotate staging API key" "Rotate the staging API key and include deploy notes." "priya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Reconcile April invoice mismatch" "Reconcile the invoice mismatch from April." "nina" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__c5KviYa\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__c5KviYa\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__c5KviYa\agent\trajectory.json
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__c5KviYa\agent\trajectory.json
+The verifier.env contains an API key (often the case for LLM-based verifiers). You will incur costs associated with the API calls.
+Skipping image OS validation for hb__commitments-tracking: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack list_channels\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__TA37PSj\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack get_channel_messages general\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages incidents\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages leads\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages customer-success\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages ops\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__TA37PSj\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks create_task "Update onboarding FAQ" "Update the onboarding FAQ with the new SSO steps." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Set up billing API monitoring" "Set up monitoring for the billing API following the recent spike in 500s." "devon" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Complete Globex security questionnaire" "Complete the security questionnaire for Globex." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Draft Initech renewal email" "Draft the renewal email for Initech by Friday." "maya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Rotate staging API key" "Rotate the staging API key and include deploy notes." "priya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Reconcile April invoice mismatch" "Reconcile the April invoice mismatch." "nina" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__TA37PSj\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__TA37PSj\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__TA37PSj\agent\trajectory.json
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__TA37PSj\agent\trajectory.json
+The verifier.env contains an API key (often the case for LLM-based verifiers). You will incur costs associated with the API calls.
+Skipping image OS validation for hb__commitments-tracking: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack list_channels\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__V3u2vKA\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack get_channel_messages general\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages incidents\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages leads\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages customer-success\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages ops\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__V3u2vKA\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks create_task "Update onboarding FAQ" "Update the onboarding FAQ with the new SSO steps." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Set up billing API monitoring" "Set up monitoring for the billing API following the incident." "devon" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Complete Globex security questionnaire" "Fill out and submit the security questionnaire for Globex." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Draft Initech renewal email" "Draft the renewal email for Initech by Friday." "maya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Rotate staging API key" "Rotate the staging API key and include the deploy notes." "priya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Reconcile April invoice mismatch" "Reconcile the invoice mismatch for April." "nina" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__V3u2vKA\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__V3u2vKA\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__V3u2vKA\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__V3u2vKA\agent\trajectory.json
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__V3u2vKA\agent\trajectory.json
+The verifier.env contains an API key (often the case for LLM-based verifiers). You will incur costs associated with the API calls.
+Skipping image OS validation for hb__commitments-tracking: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack list_channels\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__u9UBFvb\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack get_channel_messages general\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages incidents\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages leads\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages customer-success\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages ops\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__u9UBFvb\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks create_task "Update onboarding FAQ" "Update the onboarding FAQ with the new SSO steps." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Set up billing API monitoring" "Set up monitoring for the billing API following the 500s spike." "devon" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Complete Globex security questionnaire" "Complete the security questionnaire for Globex." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Draft Initech renewal email" "Draft the renewal email for Initech by Friday." "maya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Rotate staging API key" "Rotate the staging API key and include deploy notes." "priya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Reconcile April invoice mismatch" "Reconcile the April invoice mismatch." "nina" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__u9UBFvb\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__u9UBFvb\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__u9UBFvb\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__u9UBFvb\agent\trajectory.json
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__u9UBFvb\agent\trajectory.json
+The verifier.env contains an API key (often the case for LLM-based verifiers). You will incur costs associated with the API calls.
+Skipping image OS validation for hb__commitments-tracking: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack list_channels\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__NoymsFm\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack get_channel_messages general\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages incidents\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages leads\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__NoymsFm\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack get_channel_messages customer-success\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages ops\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__NoymsFm\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks create_task "Update onboarding FAQ" "Update the onboarding FAQ with the new SSO steps." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Set up billing API monitoring" "Set up monitoring for the billing API to track 500 errors." "devon" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Complete Globex security questionnaire" "Complete the security questionnaire for Globex." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Draft Initech renewal email" "Draft the renewal email for Initech by Friday." "maya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Rotate staging API key" "Rotate the staging API key and include deploy notes." "priya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Reconcile April invoice mismatch" "Reconcile the April invoice mismatch." "nina" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__NoymsFm\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__NoymsFm\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__NoymsFm\agent\trajectory.json
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__NoymsFm\agent\trajectory.json
+The verifier.env contains an API key (often the case for LLM-based verifiers). You will incur costs associated with the API calls.
+Skipping image OS validation for hb__commitments-tracking: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack list_channels\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__yMyfXg3\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack get_channel_messages general\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages incidents\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages leads\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages customer-success\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages ops\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__yMyfXg3\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks create_task "Update onboarding FAQ with new SSO steps" "Update the onboarding FAQ with the new SSO steps." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Set up billing API monitoring" "Set up monitoring for the billing API following the 500s spike." "devon" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Complete Globex security questionnaire" "Complete the security questionnaire for Globex." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Draft Initech renewal email" "Draft the Initech renewal email by Friday." "maya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Rotate staging API key" "Rotate the staging API key and include deploy notes." "priya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Reconcile April invoice mismatch" "Reconcile the April invoice mismatch." "nina" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__yMyfXg3\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__yMyfXg3\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__yMyfXg3\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__yMyfXg3\agent\trajectory.json
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__yMyfXg3\agent\trajectory.json
+The verifier.env contains an API key (often the case for LLM-based verifiers). You will incur costs associated with the API calls.
+Skipping image OS validation for hb__commitments-tracking: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Sending keys: ['slack list_channels\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__Cd9ucH5\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack get_channel_messages general\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages incidents\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages leads\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__Cd9ucH5\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack get_channel_messages customer-success\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages ops\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__Cd9ucH5\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks create_task "Update onboarding FAQ with new SSO steps" "Update the onboarding FAQ with the new SSO steps as mentioned in #general" "alice" "todo"\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Set up billing API monitoring" "Set up monitoring for the billing API to prevent/detect 500 spikes as mentioned in #incidents" "devon" "todo"\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Complete Globex security questionnaire" "Complete the security questionnaire for Globex as mentioned in #leads" "alice" "todo"\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Draft Initech renewal email" "Draft the Initech renewal email by Friday as mentioned in #customer-success" "maya" "todo"\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Rotate staging API key" "Rotate the staging API key and include deploy notes as mentioned in #ops" "priya" "todo"\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Reconcile April invoice mismatch" "Reconcile the April invoice mismatch as mentioned in #ops" "nina" "todo"\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__Cd9ucH5\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.5 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__Cd9ucH5\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__Cd9ucH5\agent\trajectory.json
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__Cd9ucH5\agent\trajectory.json
+The verifier.env contains an API key (often the case for LLM-based verifiers). You will incur costs associated with the API calls.
+Skipping image OS validation for hb__commitments-tracking: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['slack list_channels\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__MSdJNXY\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack get_channel_messages general\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages incidents\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages leads\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages customer-success\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages ops\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__MSdJNXY\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks create_task "Update onboarding FAQ with SSO steps" "Update the onboarding FAQ with the new SSO steps." "alice" "todo"\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Set up billing API monitoring" "Set up monitoring for the billing API to prevent/detect similar spikes in 500s." "devon" "todo"\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Complete Globex security questionnaire" "Complete the security questionnaire for Globex." "alice" "todo"\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Draft Initech renewal email" "Draft the Initech renewal email by Friday." "maya" "todo"\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Rotate staging API key" "Rotate the staging API key and include deploy notes." "priya" "todo"\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Reconcile April invoice mismatch" "Reconcile the mismatch in the April invoice." "nina" "todo"\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__MSdJNXY\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__MSdJNXY\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__MSdJNXY\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__MSdJNXY\agent\trajectory.json
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__MSdJNXY\agent\trajectory.json
+The verifier.env contains an API key (often the case for LLM-based verifiers). You will incur costs associated with the API calls.
+Skipping image OS validation for hb__commitments-tracking: docker inspect returned 1
+Installing: tmux, asciinema
+Detected system: {'os': 'debian-based', 'package_manager': 'apt-get', 'update_command': None}
+Installing tools using apt-get: DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y tmux asciinema
+Starting recording.
+Sending keys: ['asciinema rec --stdin /logs/agent/recording.cast', 'Enter'] min_timeout_sec: 1.0 max_timeout_sec: 180.0
+Sending keys: ['clear', 'Enter'] min_timeout_sec: 0.0 max_timeout_sec: 180.0
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack list_channels\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__oiZEG3k\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['slack get_channel_messages general\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages incidents\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages leads\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages customer-success\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['slack get_channel_messages ops\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__oiZEG3k\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks create_task "Update onboarding FAQ with SSO steps" "Update the onboarding FAQ with the new SSO steps." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Set up billing API monitoring" "Set up monitoring for the billing API to prevent future 500s spikes." "devon" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Complete Globex security questionnaire" "Complete the security questionnaire for Globex this week." "alice" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Draft Initech renewal email" "Draft the Initech renewal email by Friday." "maya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Rotate staging API key" "Rotate the staging API key and include deploy notes." "priya" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Sending keys: ['tasks create_task "Reconcile April invoice mismatch" "Reconcile the April invoice mismatch." "nina" "todo"\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__oiZEG3k\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Sending keys: ['tasks list_tasks\n'] min_timeout_sec: 0.1 max_timeout_sec: 180.0
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__oiZEG3k\agent\trajectory.json
+Failed to retrieve model info for 'openrouter/google/gemma-4-31b-it': This model isn't mapped yet. model=openrouter/google/gemma-4-31b-it, custom_llm_provider=openrouter. Add it here - https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json.. Using fallback context limit: 1000000
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__oiZEG3k\agent\trajectory.json
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__oiZEG3k\agent\trajectory.json
+The verifier.env contains an API key (often the case for LLM-based verifiers). You will incur costs associated with the API calls.

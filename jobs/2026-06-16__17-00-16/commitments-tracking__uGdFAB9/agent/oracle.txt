@@ -1,0 +1,140 @@
+[
+  {
+    "id": "c1",
+    "name": "general"
+  },
+  {
+    "id": "c2",
+    "name": "incidents"
+  },
+  {
+    "id": "c3",
+    "name": "leads"
+  }
+]
+[
+  {
+    "id": "m1",
+    "channel_id": "c1",
+    "user": "alice",
+    "text": "Morning everyone! Great turnout at yesterday's demo.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T00:00:27.114117+00:00"
+  },
+  {
+    "id": "m2",
+    "channel_id": "c1",
+    "user": "ben",
+    "text": "I will update the launch checklist after standup.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T00:00:27.115337+00:00"
+  },
+  {
+    "id": "m3",
+    "channel_id": "c1",
+    "user": "carla",
+    "text": "Customer webinar recording is now in the shared drive.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T00:00:27.116067+00:00"
+  }
+]
+[
+  {
+    "id": "m4",
+    "channel_id": "c2",
+    "user": "devon",
+    "text": "Spike in 500s on the billing API starting at 09:42.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T00:00:27.117212+00:00"
+  },
+  {
+    "id": "m5",
+    "channel_id": "c2",
+    "user": "alice",
+    "text": "I am checking the deploy diff now.",
+    "thread_id": "m4",
+    "reactions": [],
+    "timestamp": "2026-06-17T00:00:27.118301+00:00"
+  },
+  {
+    "id": "m6",
+    "channel_id": "c2",
+    "user": "devon",
+    "text": "Rollback finished and errors are back to baseline.",
+    "thread_id": "m4",
+    "reactions": [],
+    "timestamp": "2026-06-17T00:00:27.119474+00:00"
+  },
+  {
+    "id": "m7",
+    "channel_id": "c2",
+    "user": "ben",
+    "text": "Devon, can you create a follow-up task to set up monitoring for the billing API?",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T00:00:27.120947+00:00"
+  }
+]
+[
+  {
+    "id": "m8",
+    "channel_id": "c3",
+    "user": "carla",
+    "text": "Acme asked for pricing by Friday.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T00:00:27.122289+00:00"
+  },
+  {
+    "id": "m9",
+    "channel_id": "c3",
+    "user": "ben",
+    "text": "Globex wants a security questionnaire completed this week.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T00:00:27.122898+00:00"
+  },
+  {
+    "id": "m10",
+    "channel_id": "c3",
+    "user": "alice",
+    "text": "I can take the Globex questionnaire after lunch.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T00:00:27.124055+00:00"
+  }
+]
+[
+  {
+    "task_id": "t1",
+    "title": "Update launch checklist",
+    "description": "Refresh launch checklist with latest demo and webinar details.",
+    "assignee": "ben",
+    "status": "in_progress"
+  },
+  {
+    "task_id": "t2",
+    "title": "Send Acme pricing",
+    "description": "Prepare and send pricing details requested by Acme.",
+    "assignee": "carla",
+    "status": "todo"
+  }
+]
+{
+  "task_id": "t3",
+  "title": "Complete Globex security questionnaire",
+  "description": "Complete the security questionnaire requested by Globex this week.",
+  "assignee": "alice",
+  "status": "todo"
+}
+{
+  "task_id": "t4",
+  "title": "Set up billing API monitoring",
+  "description": "Create the follow-up monitoring task requested after the billing API incident.",
+  "assignee": "devon",
+  "status": "todo"
+}

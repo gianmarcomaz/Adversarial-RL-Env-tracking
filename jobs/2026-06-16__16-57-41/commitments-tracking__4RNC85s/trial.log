@@ -1,0 +1,15 @@
+Skipping image OS validation for hb__commitments-tracking: docker inspect returned 1
+The verifier.env contains an API key (often the case for LLM-based verifiers). You will incur costs associated with the API calls.
+Trial commitments-tracking__4RNC85s failed: 4 validation errors for VerifierResult
+rewards.checks.float
+  Input should be a valid number [type=float_type, input_value={'globex_ok': True, 'moni...klist_duplicate': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_type
+rewards.checks.int
+  Input should be a valid integer [type=int_type, input_value={'globex_ok': True, 'moni...klist_duplicate': False}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/int_type
+rewards.judge.float
+  Input should be a valid number [type=float_type, input_value={'score': 0, 'error': "Er...7WJvLigJnTcB6hGqiTPH'}"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/float_type
+rewards.judge.int
+  Input should be a valid integer [type=int_type, input_value={'score': 0, 'error': "Er...7WJvLigJnTcB6hGqiTPH'}"}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/int_type

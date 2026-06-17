@@ -1,0 +1,18 @@
+Skipping image OS validation for hb__commitments-tracking: docker inspect returned 1
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__c5KviYa\agent\trajectory.json
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__c5KviYa\agent\trajectory.json
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__c5KviYa\agent\trajectory.json
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__c5KviYa\agent\trajectory.json
+Parser warnings: - Extra text detected before JSON object
+- Extra text detected after JSON object
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__c5KviYa\agent\trajectory.json
+Trajectory dumped to jobs\2026-06-16__19-41-52\commitments-tracking__c5KviYa\agent\trajectory.json
+The verifier.env contains an API key (often the case for LLM-based verifiers). You will incur costs associated with the API calls.

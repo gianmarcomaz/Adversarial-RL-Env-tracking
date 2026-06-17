@@ -1,0 +1,168 @@
+[?2004hroot@152e78c0b4e9:/app# asciinema rec --stdin /logs/agent/recording.cast
+[?2004l[0;32masciinema: recording asciicast to /logs/agent/recording.cast[0m
+[0;32masciinema: press <ctrl-d> or type "exit" when you're done[0m
+[?2004hroot@152e78c0b4e9:/app# clear
+[?2004l[H[J[3J[?2004hroot@152e78c0b4e9:/app# tasks list_tasks
+[?2004l[
+  {
+    "task_id": "t1",
+    "title": "Update launch checklist",
+    "description": "Refresh launch checklist with latest demo and webinar details.",
+    "assignee": "ben",
+    "status": "in_progress"
+  },
+  {
+    "task_id": "t2",
+    "title": "Send Acme pricing",
+    "description": "Prepare and send pricing details requested by Acme.",
+    "assignee": "carla",
+    "status": "todo"
+  }
+]
+[?2004hroot@152e78c0b4e9:/app# slack get_channel_messages general
+[?2004l[
+  {
+    "id": "m1",
+    "channel_id": "c1",
+    "user": "alice",
+    "text": "Morning everyone! Great turnout at yesterday's demo.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T01:03:17.478645+00:00"
+  },
+  {
+    "id": "m2",
+    "channel_id": "c1",
+    "user": "ben",
+    "text": "I will update the launch checklist after standup.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T01:03:17.479333+00:00"
+  },
+  {
+    "id": "m3",
+    "channel_id": "c1",
+    "user": "carla",
+    "text": "Customer webinar recording is now in the shared drive.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T01:03:17.480570+00:00"
+  }
+]
+[?2004hroot@152e78c0b4e9:/app# slack get_channel_messages incidents
+[?2004l[
+  {
+    "id": "m4",
+    "channel_id": "c2",
+    "user": "devon",
+    "text": "Spike in 500s on the billing API starting at 09:42.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T01:03:17.481655+00:00"
+  },
+  {
+    "id": "m5",
+    "channel_id": "c2",
+    "user": "alice",
+    "text": "I am checking the deploy diff now.",
+    "thread_id": "m4",
+    "reactions": [],
+    "timestamp": "2026-06-17T01:03:17.482764+00:00"
+  },
+  {
+    "id": "m6",
+    "channel_id": "c2",
+    "user": "devon",
+    "text": "Rollback finished and errors are back to baseline.",
+    "thread_id": "m4",
+    "reactions": [],
+    "timestamp": "2026-06-17T01:03:17.483607+00:00"
+  },
+  {
+    "id": "m7",
+    "channel_id": "c2",
+    "user": "ben",
+    "text": "Devon, can you create a follow-up task to set up monitoring for the billing API?",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T01:03:17.484733+00:00"
+  }
+]
+[?2004hroot@152e78c0b4e9:/app# slack get_channel_messages leads
+[?2004l[
+  {
+    "id": "m8",
+    "channel_id": "c3",
+    "user": "carla",
+    "text": "Acme asked for pricing by Friday.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T01:03:17.485558+00:00"
+  },
+  {
+    "id": "m9",
+    "channel_id": "c3",
+    "user": "ben",
+    "text": "Globex wants a security questionnaire completed this week.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T01:03:17.486453+00:00"
+  },
+  {
+    "id": "m10",
+    "channel_id": "c3",
+    "user": "alice",
+    "text": "I can take the Globex questionnaire after lunch.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T01:03:17.487303+00:00"
+  }
+]
+[?2004hroot@152e78c0b4e9:/app# tasks create_task "Set up monitoring for billing API" "Create monitoring for the billing API to prevent future spikes in 500s." "devon" "todo"
+[?2004l{
+  "task_id": "t3",
+  "title": "Set up monitoring for billing API",
+  "description": "Create monitoring for the billing API to prevent future spikes in 500s.",
+  "assignee": "devon",
+  "status": "todo"
+}
+[?2004hroot@152e78c0b4e9:/app# tasks create_task "Complete Globex security questionnaire" "Complete the security questionnaire requested by Globex this week." "alice" "todo"
+[?2004l{
+  "task_id": "t4",
+  "title": "Complete Globex security questionnaire",
+  "description": "Complete the security questionnaire requested by Globex this week.",
+  "assignee": "alice",
+  "status": "todo"
+}
+[?2004hroot@152e78c0b4e9:/app# tasks list_tasks
+[?2004l[
+  {
+    "task_id": "t1",
+    "title": "Update launch checklist",
+    "description": "Refresh launch checklist with latest demo and webinar details.",
+    "assignee": "ben",
+    "status": "in_progress"
+  },
+  {
+    "task_id": "t2",
+    "title": "Send Acme pricing",
+    "description": "Prepare and send pricing details requested by Acme.",
+    "assignee": "carla",
+    "status": "todo"
+  },
+  {
+    "task_id": "t3",
+    "title": "Set up monitoring for billing API",
+    "description": "Create monitoring for the billing API to prevent future spikes in 500s.",
+    "assignee": "devon",
+    "status": "todo"
+  },
+  {
+    "task_id": "t4",
+    "title": "Complete Globex security questionnaire",
+    "description": "Complete the security questionnaire requested by Globex this week.",
+    "assignee": "alice",
+    "status": "todo"
+  }
+]
+[?2004hroot@152e78c0b4e9:/app# 

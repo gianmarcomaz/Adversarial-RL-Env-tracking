@@ -1,0 +1,382 @@
+{
+    "schema_version": 1,
+    "created_at": "2026-06-17T00:35:35.006058Z",
+    "harbor": {
+        "version": "0.13.2",
+        "is_editable": false
+    },
+    "invocation": [
+        "C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Scripts\\harbor",
+        "run",
+        "-p",
+        "tasks/commitments-tracking",
+        "-a",
+        "terminus-2",
+        "-m",
+        "openrouter/google/gemma-4-26b-a4b-it",
+        "--n-attempts",
+        "10",
+        "-n",
+        "1",
+        "--max-retries",
+        "4",
+        "--env-file",
+        ".env"
+    ],
+    "n_concurrent_trials": 1,
+    "retry": {
+        "max_retries": 4,
+        "exclude_exceptions": [
+            "VerifierTimeoutError",
+            "RewardFileEmptyError",
+            "AgentTimeoutError",
+            "RewardFileNotFoundError",
+            "VerifierOutputParseError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "task": {
+                "name": "commitments-tracking",
+                "type": "local",
+                "digest": "sha256:713c9771a16fd65daf5a108ae24091b902aa006de036512130b1a629ba489d2c",
+                "path": "tasks\\commitments-tracking"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "terminus-2",
+                "model_name": "openrouter/google/gemma-4-26b-a4b-it",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {},
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "commitments-tracking",
+                "type": "local",
+                "digest": "sha256:713c9771a16fd65daf5a108ae24091b902aa006de036512130b1a629ba489d2c",
+                "path": "tasks\\commitments-tracking"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "terminus-2",
+                "model_name": "openrouter/google/gemma-4-26b-a4b-it",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {},
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "commitments-tracking",
+                "type": "local",
+                "digest": "sha256:713c9771a16fd65daf5a108ae24091b902aa006de036512130b1a629ba489d2c",
+                "path": "tasks\\commitments-tracking"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "terminus-2",
+                "model_name": "openrouter/google/gemma-4-26b-a4b-it",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {},
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "commitments-tracking",
+                "type": "local",
+                "digest": "sha256:713c9771a16fd65daf5a108ae24091b902aa006de036512130b1a629ba489d2c",
+                "path": "tasks\\commitments-tracking"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "terminus-2",
+                "model_name": "openrouter/google/gemma-4-26b-a4b-it",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {},
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "commitments-tracking",
+                "type": "local",
+                "digest": "sha256:713c9771a16fd65daf5a108ae24091b902aa006de036512130b1a629ba489d2c",
+                "path": "tasks\\commitments-tracking"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "terminus-2",
+                "model_name": "openrouter/google/gemma-4-26b-a4b-it",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {},
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "commitments-tracking",
+                "type": "local",
+                "digest": "sha256:713c9771a16fd65daf5a108ae24091b902aa006de036512130b1a629ba489d2c",
+                "path": "tasks\\commitments-tracking"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "terminus-2",
+                "model_name": "openrouter/google/gemma-4-26b-a4b-it",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {},
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "commitments-tracking",
+                "type": "local",
+                "digest": "sha256:713c9771a16fd65daf5a108ae24091b902aa006de036512130b1a629ba489d2c",
+                "path": "tasks\\commitments-tracking"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "terminus-2",
+                "model_name": "openrouter/google/gemma-4-26b-a4b-it",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {},
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "commitments-tracking",
+                "type": "local",
+                "digest": "sha256:713c9771a16fd65daf5a108ae24091b902aa006de036512130b1a629ba489d2c",
+                "path": "tasks\\commitments-tracking"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "terminus-2",
+                "model_name": "openrouter/google/gemma-4-26b-a4b-it",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {},
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "commitments-tracking",
+                "type": "local",
+                "digest": "sha256:713c9771a16fd65daf5a108ae24091b902aa006de036512130b1a629ba489d2c",
+                "path": "tasks\\commitments-tracking"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "terminus-2",
+                "model_name": "openrouter/google/gemma-4-26b-a4b-it",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {},
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "commitments-tracking",
+                "type": "local",
+                "digest": "sha256:713c9771a16fd65daf5a108ae24091b902aa006de036512130b1a629ba489d2c",
+                "path": "tasks\\commitments-tracking"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "terminus-2",
+                "model_name": "openrouter/google/gemma-4-26b-a4b-it",
+                "skills": [],
+                "extra_allowed_hosts": [],
+                "kwargs": {},
+                "env": {},
+                "mcp_servers": []
+            },
+            "skills": [],
+            "environment": {
+                "type": "docker",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "extra_docker_compose": [],
+                "env": {},
+                "kwargs": {},
+                "extra_allowed_hosts": []
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "id": "917a1e92-f637-46cb-abc6-79f031912d9a",
+    "started_at": "2026-06-16T17:52:34.120032",
+    "updated_at": "2026-06-16T18:05:39.681276",
+    "finished_at": "2026-06-16T18:05:39.681276",
+    "n_total_trials": 10,
+    "stats": {
+        "n_completed_trials": 10,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "terminus-2__google/gemma-4-31b-it__adhoc": {
+                "n_trials": 10,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "deterministic_reward": 1.0,
+                        "globex_ok": 1.0,
+                        "llm_judge_score": 0.0,
+                        "monitoring_ok": 1.0,
+                        "no_acme_duplicate": 1.0,
+                        "no_checklist_duplicate": 1.0,
+                        "reward": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1": [
+                            "commitments-tracking__KDDGGkT",
+                            "commitments-tracking__Kbd5BQq",
+                            "commitments-tracking__h4YCdnV",
+                            "commitments-tracking__rDKRauM",
+                            "commitments-tracking__vhkjKic",
+                            "commitments-tracking__hm8HzwU",
+                            "commitments-tracking__nsXCegh",
+                            "commitments-tracking__PFdBGsY",
+                            "commitments-tracking__vnPpQgH",
+                            "commitments-tracking__APE4bD6"
+                        ]
+                    },
+                    "deterministic_reward": {
+                        "1": [
+                            "commitments-tracking__KDDGGkT",
+                            "commitments-tracking__Kbd5BQq",
+                            "commitments-tracking__h4YCdnV",
+                            "commitments-tracking__rDKRauM",
+                            "commitments-tracking__vhkjKic",
+                            "commitments-tracking__hm8HzwU",
+                            "commitments-tracking__nsXCegh",
+                            "commitments-tracking__PFdBGsY",
+                            "commitments-tracking__vnPpQgH",
+                            "commitments-tracking__APE4bD6"
+                        ]
+                    },
+                    "llm_judge_score": {
+                        "0": [
+                            "commitments-tracking__KDDGGkT",
+                            "commitments-tracking__Kbd5BQq",
+                            "commitments-tracking__h4YCdnV",
+                            "commitments-tracking__rDKRauM",
+                            "commitments-tracking__vhkjKic",
+                            "commitments-tracking__hm8HzwU",
+                            "commitments-tracking__nsXCegh",
+                            "commitments-tracking__PFdBGsY",
+                            "commitments-tracking__vnPpQgH",
+                            "commitments-tracking__APE4bD6"
+                        ]
+                    },
+                    "globex_ok": {
+                        "1": [
+                            "commitments-tracking__KDDGGkT",
+                            "commitments-tracking__Kbd5BQq",
+                            "commitments-tracking__h4YCdnV",
+                            "commitments-tracking__rDKRauM",
+                            "commitments-tracking__vhkjKic",
+                            "commitments-tracking__hm8HzwU",
+                            "commitments-tracking__nsXCegh",
+                            "commitments-tracking__PFdBGsY",
+                            "commitments-tracking__vnPpQgH",
+                            "commitments-tracking__APE4bD6"
+                        ]
+                    },
+                    "monitoring_ok": {
+                        "1": [
+                            "commitments-tracking__KDDGGkT",
+                            "commitments-tracking__Kbd5BQq",
+                            "commitments-tracking__h4YCdnV",
+                            "commitments-tracking__rDKRauM",
+                            "commitments-tracking__vhkjKic",
+                            "commitments-tracking__hm8HzwU",
+                            "commitments-tracking__nsXCegh",
+                            "commitments-tracking__PFdBGsY",
+                            "commitments-tracking__vnPpQgH",
+                            "commitments-tracking__APE4bD6"
+                        ]
+                    },
+                    "no_acme_duplicate": {
+                        "1": [
+                            "commitments-tracking__KDDGGkT",
+                            "commitments-tracking__Kbd5BQq",
+                            "commitments-tracking__h4YCdnV",
+                            "commitments-tracking__rDKRauM",
+                            "commitments-tracking__vhkjKic",
+                            "commitments-tracking__hm8HzwU",
+                            "commitments-tracking__nsXCegh",
+                            "commitments-tracking__PFdBGsY",
+                            "commitments-tracking__vnPpQgH",
+                            "commitments-tracking__APE4bD6"
+                        ]
+                    },
+                    "no_checklist_duplicate": {
+                        "1": [
+                            "commitments-tracking__KDDGGkT",
+                            "commitments-tracking__Kbd5BQq",
+                            "commitments-tracking__h4YCdnV",
+                            "commitments-tracking__rDKRauM",
+                            "commitments-tracking__vhkjKic",
+                            "commitments-tracking__hm8HzwU",
+                            "commitments-tracking__nsXCegh",
+                            "commitments-tracking__PFdBGsY",
+                            "commitments-tracking__vnPpQgH",
+                            "commitments-tracking__APE4bD6"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 119800,
+        "n_cache_tokens": 48400,
+        "n_output_tokens": 10042,
+        "cost_usd": 0.01726215
+    }
+}

@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/tests/verify.py", line 91, in <module>
+    main()
+  File "/tests/verify.py", line 73, in main
+    judge = llm_judge_score(state)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/tests/verify.py", line 57, in llm_judge_score
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 1251, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/openai/_base_client.py", line 1332, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/openai/_base_client.py", line 1105, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'openrouter/google/gemma-4-26b-a4b-it:free is not a valid model ID', 'code': 400}, 'user_id': 'user_3F0NK4B7WJvLigJnTcB6hGqiTPH'}

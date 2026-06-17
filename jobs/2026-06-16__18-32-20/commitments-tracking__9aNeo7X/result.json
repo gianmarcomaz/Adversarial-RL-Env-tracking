@@ -1,0 +1,113 @@
+{
+    "id": "9f3523b2-a83c-48f7-9125-0a23d69da36c",
+    "task_name": "apollo/commitments-tracking",
+    "trial_name": "commitments-tracking__9aNeo7X",
+    "trial_uri": "file:///C:/Users/gianm/Desktop/Everything/apollo_mercor/jobs/2026-06-16__18-32-20/commitments-tracking__9aNeo7X",
+    "task_id": {
+        "path": "tasks\\commitments-tracking"
+    },
+    "source": null,
+    "task_checksum": "eb1571a7c033f1061b2373a451c492950cb725c8438811db8b0c5eff03484f00",
+    "config": {
+        "task": {
+            "path": "tasks\\commitments-tracking",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "commitments-tracking__9aNeo7X",
+        "trials_dir": "jobs\\2026-06-16__18-32-20",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "terminus-2",
+            "import_path": null,
+            "model_name": "openrouter/google/gemma-4-26b-a4b-it:free",
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "env": {},
+            "mcp_servers": []
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": true,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "env": {},
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "job_id": "eb502984-223d-4849-a255-50047b81123a"
+    },
+    "agent_info": {
+        "name": "terminus-2",
+        "version": "2.0.0",
+        "model_info": {
+            "name": "google/gemma-4-26b-a4b-it:free",
+            "provider": "openrouter"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 0,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 0,
+        "cost_usd": null,
+        "rollout_details": [],
+        "metadata": {
+            "n_episodes": 1,
+            "api_request_times_msec": [],
+            "summarization_count": 0
+        }
+    },
+    "verifier_result": null,
+    "exception_info": {
+        "exception_type": "APIError",
+        "exception_message": "litellm.APIError: APIError: OpenrouterException - {\"error\":{\"message\":\"Provider returned error\",\"code\":502,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 500,\\n    \\\"message\\\": \\\"Internal error encountered.\\\",\\n    \\\"status\\\": \\\"INTERNAL\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":true,\"previous_errors\":[{\"code\":429,\"message\":\"Rate limit exceeded: free-models-per-day. Add 5 credits to unlock 1000 free model requests per day\"}]}},\"user_id\":\"user_3F0NK4B7WJvLigJnTcB6hGqiTPH\"}",
+        "exception_traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\litellm\\llms\\custom_httpx\\llm_http_handler.py\", line 205, in _make_common_async_call\n    response = await async_httpx_client.post(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\litellm\\litellm_core_utils\\logging_utils.py\", line 297, in async_wrapper\n    result = await func(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\litellm\\llms\\custom_httpx\\http_handler.py\", line 682, in post\n    await _raise_masked_async_error(e, stream)\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\litellm\\llms\\custom_httpx\\http_handler.py\", line 461, in _raise_masked_async_error\n    raise MaskedHTTPStatusError(e, message=_text, text=_text) from None\nlitellm.llms.custom_httpx.http_handler.MaskedHTTPStatusError: Server error '502 Bad Gateway' for url 'https://openrouter.ai/api/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\litellm\\main.py\", line 639, in acompletion\n    response = await init_response\n               ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\litellm\\llms\\custom_httpx\\llm_http_handler.py\", line 337, in async_completion\n    response = await self._make_common_async_call(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\litellm\\llms\\custom_httpx\\llm_http_handler.py\", line 230, in _make_common_async_call\n    raise self._handle_error(e=e, provider_config=provider_config)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\litellm\\llms\\custom_httpx\\llm_http_handler.py\", line 5312, in _handle_error\n    raise provider_config.get_error_class(\nlitellm.llms.openrouter.common_utils.OpenRouterException: {\"error\":{\"message\":\"Provider returned error\",\"code\":502,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 500,\\n    \\\"message\\\": \\\"Internal error encountered.\\\",\\n    \\\"status\\\": \\\"INTERNAL\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":true,\"previous_errors\":[{\"code\":429,\"message\":\"Rate limit exceeded: free-models-per-day. Add 5 credits to unlock 1000 free model requests per day\"}]}},\"user_id\":\"user_3F0NK4B7WJvLigJnTcB6hGqiTPH\"}\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\trial\\trial.py\", line 292, in run\n    await self._run()\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\trial\\single_step.py\", line 33, in _run\n    await self._run_agent()\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\trial\\single_step.py\", line 63, in _run_agent\n    await self._run_agent_phase(\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\trial\\trial.py\", line 376, in _run_agent_phase\n    await asyncio.wait_for(\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\asyncio\\tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\agents\\terminus_2\\terminus_2.py\", line 1594, in run\n    await self._run_agent_loop(\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\agents\\terminus_2\\terminus_2.py\", line 1277, in _run_agent_loop\n    ) = await self._handle_llm_interaction(\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\agents\\terminus_2\\terminus_2.py\", line 1155, in _handle_llm_interaction\n    llm_response = await self._query_llm(\n                   ^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py\", line 193, in async_wrapped\n    return await copy(fn, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py\", line 112, in __call__\n    do = await self.iter(retry_state=retry_state)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py\", line 157, in iter\n    result = await action(retry_state)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\_utils.py\", line 111, in inner\n    return call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\__init__.py\", line 413, in exc_check\n    raise retry_exc.reraise()\n          ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\__init__.py\", line 184, in reraise\n    raise self.last_attempt.result()\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\concurrent\\futures\\_base.py\", line 449, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py\", line 116, in __call__\n    result = await fn(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\agents\\terminus_2\\terminus_2.py\", line 1146, in _query_llm\n    raise e\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\agents\\terminus_2\\terminus_2.py\", line 995, in _query_llm\n    llm_response = await chat.chat(\n                   ^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\llms\\chat.py\", line 89, in chat\n    llm_response: LLMResponse = await self._model.call(\n                                ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py\", line 193, in async_wrapped\n    return await copy(fn, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py\", line 112, in __call__\n    do = await self.iter(retry_state=retry_state)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py\", line 157, in iter\n    result = await action(retry_state)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\_utils.py\", line 111, in inner\n    return call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\__init__.py\", line 413, in exc_check\n    raise retry_exc.reraise()\n          ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\__init__.py\", line 184, in reraise\n    raise self.last_attempt.result()\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\concurrent\\futures\\_base.py\", line 449, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\concurrent\\futures\\_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py\", line 116, in __call__\n    result = await fn(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\llms\\lite_llm.py\", line 403, in call\n    self._handle_litellm_error(e)\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\llms\\lite_llm.py\", line 638, in _handle_litellm_error\n    raise e\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\harbor\\llms\\lite_llm.py\", line 367, in call\n    response = await litellm.acompletion(**completion_kwargs)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\litellm\\utils.py\", line 2100, in wrapper_async\n    raise e\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\litellm\\utils.py\", line 1899, in wrapper_async\n    result = await original_function(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\litellm\\main.py\", line 659, in acompletion\n    raise exception_type(\n          ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\litellm\\litellm_core_utils\\exception_mapping_utils.py\", line 2473, in exception_type\n    raise e\n  File \"C:\\Users\\gianm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\litellm\\litellm_core_utils\\exception_mapping_utils.py\", line 2405, in exception_type\n    raise APIError(\nlitellm.exceptions.APIError: litellm.APIError: APIError: OpenrouterException - {\"error\":{\"message\":\"Provider returned error\",\"code\":502,\"metadata\":{\"raw\":\"{\\n  \\\"error\\\": {\\n    \\\"code\\\": 500,\\n    \\\"message\\\": \\\"Internal error encountered.\\\",\\n    \\\"status\\\": \\\"INTERNAL\\\"\\n  }\\n}\\n\",\"provider_name\":\"Google AI Studio\",\"is_byok\":true,\"previous_errors\":[{\"code\":429,\"message\":\"Rate limit exceeded: free-models-per-day. Add 5 credits to unlock 1000 free model requests per day\"}]}},\"user_id\":\"user_3F0NK4B7WJvLigJnTcB6hGqiTPH\"}\n",
+        "occurred_at": "2026-06-16T18:35:34.109837"
+    },
+    "started_at": "2026-06-17T01:34:29.163732Z",
+    "finished_at": "2026-06-17T01:35:36.381920Z",
+    "environment_setup": {
+        "started_at": "2026-06-17T01:34:29.175502Z",
+        "finished_at": "2026-06-17T01:34:35.723962Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-06-17T01:34:35.723962Z",
+        "finished_at": "2026-06-17T01:34:51.221513Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-06-17T01:34:51.221513Z",
+        "finished_at": "2026-06-17T01:35:34.100700Z"
+    },
+    "verifier": null,
+    "step_results": null
+}

@@ -1,0 +1,477 @@
+[?2004hroot@370cb4febf92:/app# asciinema rec --stdin /logs/agent/recording.cast
+[?2004l[0;32masciinema: recording asciicast to /logs/agent/recording.cast[0m
+[0;32masciinema: press <ctrl-d> or type "exit" when you're done[0m
+[?2004hroot@370cb4febf92:/app# clear
+[?2004l[H[J[3J[?2004hroot@370cb4febf92:/app# slack list_channels
+[?2004l[
+  {
+    "id": "c1",
+    "name": "general"
+  },
+  {
+    "id": "c2",
+    "name": "incidents"
+  },
+  {
+    "id": "c3",
+    "name": "leads"
+  },
+  {
+    "id": "c4",
+    "name": "customer-success"
+  },
+  {
+    "id": "c5",
+    "name": "ops"
+  }
+]
+[?2004hroot@370cb4febf92:/app# tasks list_tasks
+[?2004l[
+  {
+    "task_id": "t1",
+    "title": "Prepare launch readiness checklist",
+    "description": "Refresh the checklist for tomorrow's launch review.",
+    "assignee": "ben",
+    "status": "todo"
+  }
+]
+[?2004hroot@370cb4febf92:/app# slack get_channel_messages general
+[?2004l[
+  {
+    "id": "m1",
+    "channel_id": "c1",
+    "user": "alice",
+    "text": "Morning everyone! The demo recap doc is in the drive.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.475012+00:00"
+  },
+  {
+    "id": "m2",
+    "channel_id": "c1",
+    "user": "ben",
+    "text": "I will refresh the launch checklist before tomorrow's launch review.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.475310+00:00"
+  },
+  {
+    "id": "m3",
+    "channel_id": "c1",
+    "user": "carla",
+    "text": "I finished the customer webinar recap this morning.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.475592+00:00"
+  },
+  {
+    "id": "m4",
+    "channel_id": "c1",
+    "user": "devon",
+    "text": "Should we really create a task for every tiny docs typo?",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.475866+00:00"
+  },
+  {
+    "id": "m5",
+    "channel_id": "c1",
+    "user": "alice",
+    "text": "I will update the onboarding FAQ with the new SSO steps.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.476154+00:00"
+  },
+  {
+    "id": "m6",
+    "channel_id": "c1",
+    "user": "priya",
+    "text": "If the pilot slips, we might need a new rollout plan.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.476407+00:00"
+  },
+  {
+    "id": "m7",
+    "channel_id": "c1",
+    "user": "nina",
+    "text": "Coffee machine is fixed again.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.476747+00:00"
+  }
+]
+[?2004hroot@370cb4febf92:/app# slack get_channel_messages incidents
+[?2004l[
+  {
+    "id": "m8",
+    "channel_id": "c2",
+    "user": "devon",
+    "text": "Spike in 500s on the billing API started at 09:42.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.477084+00:00"
+  },
+  {
+    "id": "m9",
+    "channel_id": "c2",
+    "user": "alice",
+    "text": "The deploy diff looked clean when I checked it.",
+    "thread_id": "m8",
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.477362+00:00"
+  },
+  {
+    "id": "m10",
+    "channel_id": "c2",
+    "user": "devon",
+    "text": "Rollback finished and errors are back to baseline.",
+    "thread_id": "m8",
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.477565+00:00"
+  },
+  {
+    "id": "m11",
+    "channel_id": "c2",
+    "user": "ben",
+    "text": "Devon, can you create a follow-up task to set up monitoring for the billing API?",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.477783+00:00"
+  },
+  {
+    "id": "m12",
+    "channel_id": "c2",
+    "user": "devon",
+    "text": "Yes, I'll set up billing API monitoring this week.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.477979+00:00"
+  },
+  {
+    "id": "m13",
+    "channel_id": "c2",
+    "user": "carla",
+    "text": "FYI, the status page already showed green by 10:10.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.478271+00:00"
+  },
+  {
+    "id": "m14",
+    "channel_id": "c2",
+    "user": "alice",
+    "text": "Let's discuss alert thresholds in the retro.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.478484+00:00"
+  }
+]
+[?2004hroot@370cb4febf92:/app# slack get_channel_messages leads
+[?2004l[
+  {
+    "id": "m15",
+    "channel_id": "c3",
+    "user": "ben",
+    "text": "Globex wants a security questionnaire completed this week.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.478684+00:00"
+  },
+  {
+    "id": "m16",
+    "channel_id": "c3",
+    "user": "alice",
+    "text": "I can take the Globex questionnaire after lunch.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.478981+00:00"
+  },
+  {
+    "id": "m17",
+    "channel_id": "c3",
+    "user": "carla",
+    "text": "Maya, can you handle the QBR deck for Globex too?",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.479328+00:00"
+  },
+  {
+    "id": "m18",
+    "channel_id": "c3",
+    "user": "maya",
+    "text": "I can't take the QBR deck this week.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.479726+00:00"
+  },
+  {
+    "id": "m19",
+    "channel_id": "c3",
+    "user": "devon",
+    "text": "New lead from Umbrella looks early stage.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.480174+00:00"
+  },
+  {
+    "id": "m20",
+    "channel_id": "c3",
+    "user": "ben",
+    "text": "No task needed for the old Globex logo request; it was closed last month.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.480621+00:00"
+  },
+  {
+    "id": "m21",
+    "channel_id": "c3",
+    "user": "nina",
+    "text": "Can someone remind me where the SOC2 template lives?",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.481037+00:00"
+  }
+]
+[?2004hroot@370cb4febf92:/app# slack get_channel_messages customer-success
+[?2004l[
+  {
+    "id": "m22",
+    "channel_id": "c4",
+    "user": "carla",
+    "text": "Initech renewal call went well.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.481591+00:00"
+  },
+  {
+    "id": "m23",
+    "channel_id": "c4",
+    "user": "carla",
+    "text": "Maya, please draft the Initech renewal email by Friday.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.482651+00:00"
+  },
+  {
+    "id": "m24",
+    "channel_id": "c4",
+    "user": "maya",
+    "text": "Got it, I'll draft the renewal email.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.483091+00:00"
+  },
+  {
+    "id": "m25",
+    "channel_id": "c4",
+    "user": "nina",
+    "text": "The customer already received the refund summary yesterday.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.483480+00:00"
+  },
+  {
+    "id": "m26",
+    "channel_id": "c4",
+    "user": "ben",
+    "text": "FYI, the new support macros are live.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.483947+00:00"
+  },
+  {
+    "id": "m27",
+    "channel_id": "c4",
+    "user": "alice",
+    "text": "Could we maybe offer a discount if usage drops?",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.484374+00:00"
+  },
+  {
+    "id": "m28",
+    "channel_id": "c4",
+    "user": "devon",
+    "text": "I will not own the ChurnCo follow-up because sales is handling it.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.484915+00:00"
+  }
+]
+[?2004hroot@370cb4febf92:/app# slack get_channel_messages ops
+[?2004l[
+  {
+    "id": "m29",
+    "channel_id": "c5",
+    "user": "devon",
+    "text": "I'll rotate the staging API key after lunch.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.485388+00:00"
+  },
+  {
+    "id": "m30",
+    "channel_id": "c5",
+    "user": "ben",
+    "text": "Please include the deploy notes when you do the key rotation.",
+    "thread_id": "m29",
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.485971+00:00"
+  },
+  {
+    "id": "m31",
+    "channel_id": "c5",
+    "user": "devon",
+    "text": "I'm tied up with the audit and can't own the key rotation after all.",
+    "thread_id": "m29",
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.486478+00:00"
+  },
+  {
+    "id": "m32",
+    "channel_id": "c5",
+    "user": "priya",
+    "text": "I can take the staging API key rotation and finish it today.",
+    "thread_id": "m29",
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.487211+00:00"
+  },
+  {
+    "id": "m33",
+    "channel_id": "c5",
+    "user": "nina",
+    "text": "FYI, the staging database snapshot completed overnight.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.487765+00:00"
+  },
+  {
+    "id": "m34",
+    "channel_id": "c5",
+    "user": "alice",
+    "text": "Nina, can you reconcile the April invoice mismatch?",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.488314+00:00"
+  },
+  {
+    "id": "m35",
+    "channel_id": "c5",
+    "user": "nina",
+    "text": "Yes, I will reconcile the April invoice mismatch tomorrow.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.488833+00:00"
+  },
+  {
+    "id": "m36",
+    "channel_id": "c5",
+    "user": "maya",
+    "text": "Docs typo cleanup can wait until next sprint.",
+    "thread_id": null,
+    "reactions": [],
+    "timestamp": "2026-06-17T02:45:31.489536+00:00"
+  }
+]
+[?2004hroot@370cb4febf92:/app# tasks create_task "Update onboarding FAQ" "Update the onboarding FAQ with the new SSO steps." "alice" "todo"
+[?2004l{
+  "task_id": "t2",
+  "title": "Update onboarding FAQ",
+  "description": "Update the onboarding FAQ with the new SSO steps.",
+  "assignee": "alice",
+  "status": "todo"
+}
+[?2004hroot@370cb4febf92:/app# tasks create_task "Set up billing API monitoring" "Set up monitoring for the billing API following the incident." "devon" "todo"
+[?2004l{
+  "task_id": "t3",
+  "title": "Set up billing API monitoring",
+  "description": "Set up monitoring for the billing API following the incident.",
+  "assignee": "devon",
+  "status": "todo"
+}
+[?2004hroot@370cb4febf92:/app# tasks create_task "Complete Globex security questionnaire" "Fill out and submit the security questionnaire for Globex." "alice" "todo"
+[?2004l{
+  "task_id": "t4",
+  "title": "Complete Globex security questionnaire",
+  "description": "Fill out and submit the security questionnaire for Globex.",
+  "assignee": "alice",
+  "status": "todo"
+}
+[?2004hroot@370cb4febf92:/app# tasks create_task "Draft Initech renewal email" "Draft the renewal email for Initech by Friday." "maya" "todo"
+[?2004l{
+  "task_id": "t5",
+  "title": "Draft Initech renewal email",
+  "description": "Draft the renewal email for Initech by Friday.",
+  "assignee": "maya",
+  "status": "todo"
+}
+[?2004hroot@370cb4febf92:/app# tasks create_task "Rotate staging API key" "Rotate the staging API key and include the deploy notes." "priya" "todo"
+[?2004l{
+  "task_id": "t6",
+  "title": "Rotate staging API key",
+  "description": "Rotate the staging API key and include the deploy notes.",
+  "assignee": "priya",
+  "status": "todo"
+}
+[?2004hroot@370cb4febf92:/app# tasks create_task "Reconcile April invoice mismatch" "Reconcile the invoice mismatch for April." "nina" "todo"
+[?2004l{
+  "task_id": "t7",
+  "title": "Reconcile April invoice mismatch",
+  "description": "Reconcile the invoice mismatch for April.",
+  "assignee": "nina",
+  "status": "todo"
+}
+[?2004hroot@370cb4febf92:/app# tasks list_tasks
+[?2004l[
+  {
+    "task_id": "t1",
+    "title": "Prepare launch readiness checklist",
+    "description": "Refresh the checklist for tomorrow's launch review.",
+    "assignee": "ben",
+    "status": "todo"
+  },
+  {
+    "task_id": "t2",
+    "title": "Update onboarding FAQ",
+    "description": "Update the onboarding FAQ with the new SSO steps.",
+    "assignee": "alice",
+    "status": "todo"
+  },
+  {
+    "task_id": "t3",
+    "title": "Set up billing API monitoring",
+    "description": "Set up monitoring for the billing API following the incident.",
+    "assignee": "devon",
+    "status": "todo"
+  },
+  {
+    "task_id": "t4",
+    "title": "Complete Globex security questionnaire",
+    "description": "Fill out and submit the security questionnaire for Globex.",
+    "assignee": "alice",
+    "status": "todo"
+  },
+  {
+    "task_id": "t5",
+    "title": "Draft Initech renewal email",
+    "description": "Draft the renewal email for Initech by Friday.",
+    "assignee": "maya",
+    "status": "todo"
+  },
+  {
+    "task_id": "t6",
+    "title": "Rotate staging API key",
+    "description": "Rotate the staging API key and include the deploy notes.",
+    "assignee": "priya",
+    "status": "todo"
+  },
+  {
+    "task_id": "t7",
+    "title": "Reconcile April invoice mismatch",
+    "description": "Reconcile the invoice mismatch for April.",
+    "assignee": "nina",
+    "status": "todo"
+  }
+]
+[?2004hroot@370cb4febf92:/app# 

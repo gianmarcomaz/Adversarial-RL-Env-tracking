@@ -1,0 +1,19 @@
+{
+  "reward": 1,
+  "deterministic_reward": 1,
+  "llm_judge_score": 0,
+  "globex_ok": 1,
+  "monitoring_ok": 1,
+  "no_acme_duplicate": 1,
+  "no_checklist_duplicate": 1,
+  "checks": {
+    "globex_ok": true,
+    "monitoring_ok": true,
+    "no_acme_duplicate": true,
+    "no_checklist_duplicate": true
+  },
+  "judge": {
+    "score": 0,
+    "error": "'NoneType' object is not subscriptable"
+  }
+}
